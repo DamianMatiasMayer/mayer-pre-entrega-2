@@ -1,20 +1,22 @@
 import React from 'react';
 import Nike from "../../images/Nike.jpg";
+import { Link, NavLink } from 'react-router-dom';
+
 
 export const Header = () => {
   return (
-    <header>   
-      <a href='#'>
+    <header>
+      <Link to='/'>
         <div className='logo'>
-          <img src={Nike} alt='logo' width="150"/>
+          <img src={Nike} alt='logo' width="150" />
         </div>
-      </a>
+      </Link>
       <ul>
         <li>
-          <a href='#'>INICIO</a>
+          <NavLink exact to='/' activeClassName='active'>INICIO</NavLink>
         </li>
         <li>
-          <a href='#'>PRODUCTOS</a>
+          <NavLink to='/productos' activeClassName='active'>PRODUCTOS</NavLink>
         </li>
       </ul>
       <div className='cart'>
@@ -24,4 +26,5 @@ export const Header = () => {
     </header>
   )
 }
+
 export default Header

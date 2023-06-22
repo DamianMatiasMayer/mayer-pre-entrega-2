@@ -1,20 +1,17 @@
 import React from 'react';
 import { Header } from "./components/Header";
 import 'boxicons';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 
 
-function App() {
 
+const App = () => {
   return (
-   
-    <div className="App">
-      <Header />
-      
-     
-    </div>
-   
+    <Router>
+      <Header />      
+    </Router>
   );
 }
 
