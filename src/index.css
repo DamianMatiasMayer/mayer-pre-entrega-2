@@ -25,9 +25,9 @@ code {
 /*------------header------------*/
 
 header{
-   width: 97%;
+   width: 100%;
    min-height: 100px;
-   max-width: 1530px;
+   
    overflow: hidden;
    display: flex;
    justify-content: space-around;
