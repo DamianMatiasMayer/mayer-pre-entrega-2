@@ -1,7 +1,9 @@
 import React from 'react';
-import { Header } from "./components/Header";
+import { Header } from "./componentes/Header";
 import 'boxicons';
 import { BrowserRouter as Router } from 'react-router-dom';
+import ProductosLista from './componentes/Productos';
+
 
 
 
@@ -10,7 +12,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 const App = () => {
   return (
     <Router>
-      <Header />      
+      <Header /> 
+      <ProductosLista/>
     </Router>
   );
 }
