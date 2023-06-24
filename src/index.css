@@ -27,7 +27,7 @@ code {
 header{
    width: 100%;
    min-height: 100px;
-     
+   
    overflow: hidden;
    display: flex;
    justify-content: space-around;
@@ -166,6 +166,7 @@ header .cart span{
 }
 .buttom div a{
   color: white;
+  font-weight: 700;
 }
 .buttom div a:hover{
   color: white;
