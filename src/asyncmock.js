@@ -1,4 +1,4 @@
-const data = {
+ const misProductos = {
     status: "success",
     items: [
       {
@@ -114,4 +114,4 @@ const data = {
     ],
   };
   
-  export default data;
+  export default asyncmock;

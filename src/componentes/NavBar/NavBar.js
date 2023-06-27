@@ -3,7 +3,7 @@ import Nike from "../../images/Nike.jpg";
 import { Link, NavLink } from 'react-router-dom';
 
 
-export const Header = () => {
+export const NavBar = () => {
   return (
     <header>
       <Link to='/'>
@@ -27,4 +27,4 @@ export const Header = () => {
   )
 }
 
-export default Header
+export default NavBar

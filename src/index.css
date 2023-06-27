@@ -171,6 +171,10 @@ header .cart span{
 .buttom div a:hover{
   color: white;
 }
+.contenedorProductos {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*------------media-----------*/
 
